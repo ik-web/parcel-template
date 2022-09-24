@@ -1,0 +1,30 @@
+{
+  "name": "parcel-template",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://ik-web.github.io/parcel-template",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --open -p 3000",
+    "watch": "parcel watch",
+    "clear": "rm -rf dist .parcel-cache",
+    "build": "npm run clear && parcel build --target web",
+    "deploy": "gh-pages -d dist"
+  },
+  "web": "./dist/index.html",
+  "targets": {
+    "web": {
+      "context": "browser",
+      "publicUrl": "./"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0"
+  }
+}
