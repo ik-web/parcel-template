@@ -32,7 +32,7 @@ you can publish content from the `dist` folder to `Gitub pages`
 - `npm run deploy` - deployment to gh-pages
 
 **Use npm commands for install node modules:**
-- `npm i` - install this "parcel" template
+- `npm i` - install this **parcel** template
 - `npm i parcel -D` - a module for building parcel assembly
 - `npm i gh-pages -D` - Publish the `dist` directory to the gh-pages on GitHub
 
