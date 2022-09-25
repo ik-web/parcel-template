@@ -20,7 +20,7 @@
 in the projects development.
 
 Thanks to help of the `gulp-gh-pages` module, <br>
-you can publish content from the `dist` folder to `Gitub pages`
+you can publish content from the `dist` folder to *GitHub-pages*
 
 ## Documentation
 
